@@ -1,0 +1,25 @@
+ //main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-roboto: 'Roboto';
+
+/// Copy text color
+/// @type Color
+$text-color: black !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;
+
+// Other Variables
+
+$white: #ffffff;
+$black: #000000;

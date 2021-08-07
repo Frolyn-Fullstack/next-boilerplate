@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+// Configuration and helpers
+@import
+  'utils/functions',
+  'utils/variables',
+  'utils/mixins',
+  'utils/animations';
+
+// Base Styling
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// Components
+/*
+@import
+  'components/component-1',
+  'components/component-2';
+*/
+
+// Page-specific styles
+@import
+  'pages/home';
