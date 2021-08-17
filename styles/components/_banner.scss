@@ -1,0 +1,22 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    h1 { text-align: center; }
+    h3 {
+        font-weight: normal; 
+        text-align: center;
+    }
+    h4 {
+        font-weight: normal;
+        text-align: center;
+    }
+}

@@ -2,3 +2,44 @@ body {
     color: $text-color;
     font: normal 16px $font-roboto;
   }
+
+  h1 { 
+    font-size: 72px;
+    font-weight: 300;
+  }
+  h2 { 
+    font-size: 60px;
+    font-weight: 400;
+  }
+  h3 { 
+    font-size: 48px;
+    font-weight: 400;
+  }
+  h4 { 
+    font-size: 36px;
+    font-weight: normal;
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  p { font-size: 14px; }
+
+  .title { font-size: 24px; }
+  .subtitle-1 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .subtitle-1 {
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .body-1 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .body-2 {
+    font-size: 12px;
+    font-weight: 400;
+  }

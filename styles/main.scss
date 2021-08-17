@@ -14,11 +14,15 @@
   'base/typography';
 
 // Components
-/*
+
 @import
-  'components/component-1',
-  'components/component-2';
-*/
+  'components/app-bar',
+  'components/banner';
+
+
+// Layout
+@import
+  'layout/footer';
 
 // Page-specific styles
 @import

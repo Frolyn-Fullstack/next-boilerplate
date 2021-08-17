@@ -1,3 +1,10 @@
 .page-home {
     height: 100%;
+    .logo {
+        width: 240px;
+        height: auto;
+        padding: 18px;
+
+        &-box { margin-bottom: 24px; }
+    }
 }
